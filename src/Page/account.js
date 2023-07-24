@@ -17,7 +17,7 @@ const Accountinfo =()=>{
         <input type="text" placeholder="Input text" name="lastName" id="lastName" required/>
 
         <label for="AL1"><b>Address line 1</b></label>
-        <input type="text" placeholder="Input text" name="AL1" id="AL1" required/>
+        <input type="text" placeholder="Input text"  name="AL1" id="AL1" required/>
 
         <label for="AL2"><b>Address line 2</b></label>
         <input type="text" placeholder="Input text" name="AL2" id="AL2" required/>

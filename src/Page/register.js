@@ -23,7 +23,7 @@ const Register =()=>{
         <button type="submit" class="registerbtn">Register</button>
         <input type="reset" value="Reset"/>
 
-
+ 
     </div>
 
     <div class="container signin">

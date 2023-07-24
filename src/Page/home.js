@@ -11,7 +11,7 @@ const Home =()=>{
         <hr/>
         <h3>Test</h3>
         <p>Lorem ipsum...</p>
-        </div>
+        </div> 
     )
 }
 export default Home;

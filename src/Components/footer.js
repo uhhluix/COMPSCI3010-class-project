@@ -9,5 +9,5 @@ const Footer =()=>{
             {/* target="_blank" */}
         </div>
     )
-}
+} 
 export default Footer;

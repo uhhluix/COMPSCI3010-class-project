@@ -5,7 +5,7 @@ const Home =()=>{
     return(
         <div className="col-sm-8 text-left">
         <h2>Welcome to Hollow Knight!</h2>
-        <p>Currently working on our page!</p>
+        <p>Currently working on our page!!</p>
         <img src={require('../Images/Ghost.webp')}  alt="Ghost" width="300" height="300"/>
 
 

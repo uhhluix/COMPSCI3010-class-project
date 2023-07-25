@@ -24,10 +24,8 @@ const handleSubmit = (e) =>{
         <h1>Log in</h1>
         <p>Please fill in this form to Log in.</p>
         <hr/>
-        <span>{user.username}</span> <br/>
-        <span>{user.password}</span> <br/>
-        <span>{JSON.stringify(user.loggedin)}</span> <br/>
-        <br/>
+        
+    
         <label htmlFor="username"><b>Username</b></label>
         <input type="text" name = "username" onChange={onChangeUser} placeholder="Enter Username"  id="username" required/>
 

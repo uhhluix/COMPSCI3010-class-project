@@ -5,34 +5,34 @@ const Accountinfo =()=>{
        <div>
 
 <form action="/action_page.php">
-    <div class="container">
+    <div className="container">
         <h2>Account Information</h2>
         <p>Please fill in to update account.</p>
         <hr/>
 
-        <label for="firstName"><b>First Name</b></label>
+        <label htmlFor="firstName"><b>First Name</b></label>
         <input type="text" placeholder="Input text" name="firstName" id="firstName" required/>
 
-        <label for="lastName"><b>Last Name</b></label>
+        <label htmlFor="lastName"><b>Last Name</b></label>
         <input type="text" placeholder="Input text" name="lastName" id="lastName" required/>
 
-        <label for="AL1"><b>Address line 1</b></label>
+        <label htmlFor="AL1"><b>Address line 1</b></label>
         <input type="text" placeholder="Input text"  name="AL1" id="AL1" required/>
 
-        <label for="AL2"><b>Address line 2</b></label>
+        <label htmlFor="AL2"><b>Address line 2</b></label>
         <input type="text" placeholder="Input text" name="AL2" id="AL2" required/>
 
-        <label for="city"><b>City</b></label>
+        <label htmlFor="city"><b>City</b></label>
         <input type="text" placeholder="Input text" name="city" id="city" required/>
 
-        <label for="state"><b>State</b> </label>
+        <label htmlFor="state"><b>State</b> </label>
         <select name="state" id="state">
             <option value="" selected="selected">Select a State</option>
             <option value="AL">Alabama</option>
             <option value="AK">Alaska</option>
             <option value="AZ">Arizona</option>
             <option value="AR">Arkansas</option>
-            <option value="CA">California</option>
+            <option value="CA">CalihtmlFornia</option>
             <option value="CO">Colorado</option>
             <option value="CT">Connecticut</option>
             <option value="DE">Delaware</option>
@@ -84,19 +84,19 @@ const Accountinfo =()=>{
 
         <br/>
         <br/>
-        <label for="zip"><b>Zip Code</b></label>
+        <label htmlFor="zip"><b>Zip Code</b></label>
         <input type="text" placeholder="Input text" name="zip" id="zip" required/>
 
-        <label for="number"><b>Phone Number</b></label>
+        <label htmlFor="number"><b>Phone Number</b></label>
         <input type="text" placeholder="Input text" name="number" id="number" required/>
 
-        <label for="email"><b>Email</b></label>
+        <label htmlFor="email"><b>Email</b></label>
         <input type="text" placeholder="Input text" name="email" id="email" required/>
         </div>
 
         <hr/>
 
-        <button type="submit" class="submitbtn">Submit</button>
+        <button type="submit" className="submitbtn">Submit</button>
         <input type="reset" value="Reset"/>
 
 
